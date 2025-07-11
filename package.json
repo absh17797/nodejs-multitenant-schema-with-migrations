@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-multitenant-schema",
+  "version": "1.0.0",
+  "description": "Node.js multi-tenant app using MongoDB schemas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node run-migrations.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7",
+    "morgan": "^1.10.0"
+  }
+}
